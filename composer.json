@@ -34,4 +34,10 @@
             "yii\\lindeeditor\\": ""
         }
     }
+    {
+    // package dependencies
+    "require": {
+        "bower-asset/jquery": ">=1.11.*"
+    }
+}
 }
