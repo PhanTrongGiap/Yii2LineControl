@@ -1,0 +1,37 @@
+{
+    // package name
+    "name": "yiisoft/yii2-lindeeditor",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Linde Control Html5 Editor",
+    "keywords": ["yii2", "html5", "editor", "helper", "Linde Control"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://phantronggiap.com/",
+        "forum": "http://phantronggiap.com/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Phan Trong Giap",
+            "email": "phantronggiap@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+        "lindeeditor/lindeeditor": "v0.5.0"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "yii\\lindeeditor\\": ""
+        }
+    }
+}
